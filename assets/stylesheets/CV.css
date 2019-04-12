@@ -217,3 +217,11 @@ footer
 {
     margin: 6em;
 }
+
+button
+{
+    border: none;
+    background: none;
+    color: #e4cc43;
+    cursor: pointer;
+}

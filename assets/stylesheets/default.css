@@ -25,11 +25,17 @@ body
 
 header
 {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     margin: auto;
     background-color: #3eb2e7;
+}
+
+#header-content
+{
+    width: 30cm;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 header div
@@ -37,15 +43,23 @@ header div
     display: flex;
 }
 
-#rightHeader
+#theButton
 {
-    margin-right: 1em;
+    margin: 2px;
+    padding: 0px;
+}
+
+#theButton:active
+{
+    margin: 0px;
+    padding: 0px;
 }
 
 h1
 {
     margin: 0px;
     padding: 0.5em;
+    padding-left: 0px;
 }
 
 header img
@@ -55,11 +69,12 @@ header img
     margin: auto;
     margin-right: 0.5em;
     margin-left: 0.5em;
+    cursor: pointer;
 }
 
 article
 {
-    width: 20cm;
+    width: 30cm;
     margin: auto;
 }
 
@@ -75,10 +90,5 @@ button
     background: none;
     color: #ffffff;
     font-size: 1em;
-}
-
-button:active
-{
-    border-style: outset;
-    border: none;
+    cursor: pointer;
 }
