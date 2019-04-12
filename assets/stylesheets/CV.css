@@ -4,18 +4,21 @@
     src: url(../fonts/LinLibertine_R.ttf) format('truetype');
 }
 
-@font-face {
+@font-face
+{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
     src: local('Roboto Thin'), local('Roboto-Thin'), url(../fonts/Roboto-Thin.ttf) format('truetype');
-  }
-  @font-face {
+}
+
+@font-face
+{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/Roboto-Light.ttf) format('truetype');
-  }  
+}  
 
 body
 {
@@ -37,7 +40,6 @@ div
 {
     margin: auto;
 }
-
 
 header
 {
