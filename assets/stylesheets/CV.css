@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: 300;
     src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/Roboto-Light.ttf) format('truetype');
-}  
+}
 
 body
 {
@@ -148,12 +148,12 @@ p
 {
     flex: 1;
     font-weight: bold;
-    color: #464b51;
+    color: #4e545a;
 }
 
 #dark .two-sided .left-side
 {
-    color: #6b7077;
+    color: #878d97;
 }
 
 .two-sided .right-side
@@ -173,7 +173,7 @@ p
     padding-left: 0.3em;
 }
 
-.item-name .precision::before
+.item-name .precision:before
 {
     content: " | ";
 }
@@ -198,10 +198,10 @@ p
 
 #dark .description
 {
-    color: #727980;
+    color: #89929b;
 }
 
-.description li::before
+.description li:before
 {
     content: "·";
     padding-right: 0.2em;
