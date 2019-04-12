@@ -1,0 +1,204 @@
+@font-face
+{
+    font-family: linux-libertine;
+    src: url(fonts/LinLibertine_R.ttf) format('truetype');
+}
+
+body
+{
+    font-size: 1.3em;
+    font-family: linux-libertine;
+    margin: auto;
+    text-align: justify;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#dark
+{
+    color: #cfcde6;
+    background-color: #110f0f;
+}
+
+div
+{
+    margin: auto;
+}
+
+
+header
+{
+    font-family: Roboto;
+    color: #ffffff;
+    background-color: #119e9e;
+}
+
+#dark header
+{
+    background-color: #095252;
+}
+
+.header-content
+{
+    width: 20cm;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1
+{
+    font-weight: lighter;
+    font-size: 3em;
+    margin-bottom: 0.6em;
+    margin-top: 0.4em;
+}
+
+#dark h1
+{
+    color: #ffffff;
+}
+
+.about-me
+{
+    margin: auto;
+    font-size: 0.8em;
+}
+
+.about-me li
+{
+    margin-bottom: 1em;
+}
+
+.address
+{
+    list-style: "⌂ ";
+}
+
+.phone
+{
+    list-style: "✆ ";
+}
+
+.mail
+{
+    list-style: "@ ";
+}
+
+img
+{
+    max-width: 6em;
+    height: auto;
+    border: solid 1px;
+    margin: auto;
+}
+
+article
+{
+    width: 20cm;
+    margin: auto;
+}
+
+h2
+{
+    padding-left: 0.3em;
+    padding-top: 0.2em;
+    font-size: 1.7em;
+    font-weight: lighter;
+    margin-bottom: 0.2em;
+    background-color: #bec9db;
+}
+
+#dark h2
+{
+    background-color: #405555;
+}
+
+p
+{
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.two-sided
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.two-sided .left-side
+{
+    flex: 1;
+    font-weight: bold;
+    color: #464b51;
+}
+
+#dark .two-sided .left-side
+{
+    color: #6b7077;
+}
+
+.two-sided .right-side
+{
+    flex: 4;
+}
+
+.item
+{
+    margin-bottom: 0.5em;
+}
+
+.item-name
+{
+    font-variant-caps: all-petite-caps;
+    font-weight: bold;
+    padding-left: 0.3em;
+}
+
+.item-name .precision::before
+{
+    content: " | ";
+}
+
+.precision
+{
+    font-weight: normal;
+}
+
+.columns
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.description
+{
+    color: #3c3f42;
+    margin: 0px;
+    list-style: none;
+}
+
+#dark .description
+{
+    color: #727980;
+}
+
+.description li::before
+{
+    content: "·";
+    padding-right: 0.2em;
+    margin-left: -0.5em;
+}
+
+.description li
+{
+    margin-left: -1em;
+}
+
+footer
+{
+    margin: 6em;
+}
