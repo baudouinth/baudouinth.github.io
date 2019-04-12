@@ -8,7 +8,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
-    src: local('Roboto Thin'), local('Roboto-Thin'), url(http://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(../fonts/Roboto-Thin.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Roboto';
