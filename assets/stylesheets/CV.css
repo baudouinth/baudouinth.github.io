@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: linux-libertine;
-    src: url(fonts/LinLibertine_R.ttf) format('truetype');
+    src: url(../fonts/LinLibertine_R.ttf) format('truetype');
 }
 
 body
