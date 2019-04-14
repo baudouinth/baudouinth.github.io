@@ -1,3 +1,4 @@
+/* fonts */
 @font-face
 {
     font-family: 'Roboto';
@@ -14,18 +15,75 @@
     src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/Roboto-Light.ttf) format('truetype');
 }
 
-.no-focus-outline a:focus
-{
-    outline: none;
-}
-
+/* global rules */
 body
 {
     margin: 0px;
     width: 100%;
     font-family: Roboto;
+    font-weight: normal;
     color: #ffffff;
     background-color: #404249;
+}
+
+/* links */
+.no-focus-outline a:focus
+{
+    outline: none;
+}
+
+a
+{
+    color: #3eb2e7;
+}
+
+/* buttons */
+
+.button
+{
+    text-decoration: none;
+    border: none;
+    padding: 0.3em;
+    margin: auto;
+    background: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#homeButton
+{
+    font-size: 2.2em;
+    padding: 0.1em;
+    margin: 0.4em;
+    margin-left: -0.1em;
+}
+
+.menuButton
+{
+    border: solid 1px;
+    border-radius: 1px;
+    border-color: #3eb2e7;
+}
+
+.menuButton:hover
+{
+    border-color: #ffffff;
+}
+
+.menuButton:active
+{
+    color: #000000;
+    border-color: #000000;
+}
+
+.iconButton
+{
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
 
 header
@@ -48,13 +106,6 @@ header div
     display: flex;
 }
 
-h1
-{
-    margin: 0px;
-    padding: 0.5em;
-    padding-left: 0px;
-}
-
 header img
 {
     max-width: 2em;
@@ -69,32 +120,4 @@ article
 {
     width: 30cm;
     margin: auto;
-}
-
-a
-{
-    color: #3eb2e7;
-}
-
-.button
-{
-    border: none;
-    padding: 0px;
-    margin: auto;
-    background: none;
-    color: #ffffff;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-#theButton
-{
-    border: solid 1px;
-    border-color: #3eb2e7;
-    padding: 0.5em;
-}
-
-#theButton:active
-{
-    border-color: #ffffff;
 }
