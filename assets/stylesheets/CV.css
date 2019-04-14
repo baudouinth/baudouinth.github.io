@@ -1,11 +1,5 @@
 @font-face
 {
-    font-family: linux-libertine;
-    src: url(../fonts/LinLibertine_R.ttf) format('truetype');
-}
-
-@font-face
-{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
@@ -23,7 +17,7 @@
 body
 {
     font-size: 1.3em;
-    font-family: linux-libertine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: auto;
     text-align: justify;
     color: #000000;
