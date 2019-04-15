@@ -19,9 +19,13 @@ div
     margin: auto;
 }
 
+#themeButton
+{
+    position: absolute;
+}
+
 header
 {
-    max-height: 8.3em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     background-color: #119e9e;
@@ -36,7 +40,6 @@ header
 {
     width: 20cm;
     position: relative;
-    top: -2em;
     margin: auto;
     display: flex;
     flex-direction: row;
