@@ -44,6 +44,8 @@ a
 
 .menuButton
 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     border: solid 1px;
     border-radius: 1px;
     border-color: #3eb2e7;
