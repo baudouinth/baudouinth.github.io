@@ -72,6 +72,14 @@ a
     margin-left: 0.5em;
 }
 
+.iconButton img
+{
+    max-width: 2em;
+    max-height: 2em;
+    margin: auto;
+}
+
+/* header */
 header
 {
     width: 100%;
@@ -92,16 +100,7 @@ header div
     display: flex;
 }
 
-header img
-{
-    max-width: 2em;
-    max-height: 2em;
-    margin: auto;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    cursor: pointer;
-}
-
+/* article */
 article
 {
     width: 30cm;
