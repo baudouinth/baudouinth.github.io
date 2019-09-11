@@ -6,3 +6,5 @@ input.addEventListener('keypress', function (e) {
         location = "https://www.google.com/search?client=firefox-b-d&q=" + search;
     }
 });
+
+document.getElementsByTagName("img")[0].ondragstart = function () {return false;};
